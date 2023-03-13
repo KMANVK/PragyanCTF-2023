@@ -8,6 +8,7 @@
    import glob
 
    def merge_images(images):
+   
        w, h = Image.open(images[0]).size
        instances = [Image.open(img).convert('RGB') for img in images]
 
