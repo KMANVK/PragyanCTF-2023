@@ -21,7 +21,6 @@
        images = sorted(
           glob.glob(f'{x:0>2}/*')
        )
-
        results.append(merge_images(images))
 
    flag = Image.new('RGB', (500, 500))
