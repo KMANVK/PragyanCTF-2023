@@ -4,6 +4,7 @@
    from PIL import Image
 
    import numpy as np
+   
    import glob
 
    def merge_images(images):
@@ -18,6 +19,7 @@
        return Image.fromarray(stack)
 
    results = []
+   
    for x in range(1, 11):
        images = sorted(
           glob.glob(f'{x:0>2}/*')
