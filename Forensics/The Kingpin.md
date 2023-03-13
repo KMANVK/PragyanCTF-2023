@@ -1,5 +1,6 @@
-1. binwalk file pcap => nhận được các folder bên trong chứa hình ảnh chứa flag nhưng bị cắt ghép và đè pixel lên
-2. Code dể lấy flag : 
+1. binwalk file pcap => nhận được các folder bên trong chứa hình ảnh chứa flag nhưng bị cắt ghép và đè pixel lên 
+2. Đưa tất cả các ảnh vào chung 1 folder 
+3. Code dể lấy flag : 
 
         from PIL import Image
 
