@@ -41,4 +41,4 @@
 
          flag.save('flag.png')
 
-#King pin p_ctf{TH3_D3V1L_0F_H3LL5_K1TCH3N_15_B4CK}
+#flag : p_ctf{TH3_D3V1L_0F_H3LL5_K1TCH3N_15_B4CK}
