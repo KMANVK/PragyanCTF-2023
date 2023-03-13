@@ -1,5 +1,6 @@
 1. binwalk file pcap => nhận được các folder bên trong chứa hình ảnh chứa flag nhưng bị cắt ghép và đè pixel lên
 2. Code dể lấy flag : 
+
    from PIL import Image
 
    import numpy as np
@@ -21,6 +22,7 @@
        images = sorted(
           glob.glob(f'{x:0>2}/*')
        )
+       
        results.append(merge_images(images))
 
    flag = Image.new('RGB', (500, 500))
