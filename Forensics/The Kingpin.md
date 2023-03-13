@@ -22,6 +22,7 @@
       results = []
    
       for x in range(1, 11):
+      
           images = sorted(
                  glob.glob(f'{x:0>2}/*')
           )
