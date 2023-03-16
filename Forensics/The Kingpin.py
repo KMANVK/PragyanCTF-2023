@@ -1,4 +1,4 @@
-```
+
         from PIL import Image
 
         import numpy as np
@@ -37,5 +37,5 @@
                         pix[x, y] = res.getpixel((x, y))
 
          flag.save('flag.png')
-```
+
 #flag : p_ctf{TH3_D3V1L_0F_H3LL5_K1TCH3N_15_B4CK}
