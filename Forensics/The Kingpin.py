@@ -1,7 +1,4 @@
-1. binwalk file pcap => nhận được các folder bên trong chứa hình ảnh chứa flag nhưng bị cắt ghép và đè pixel lên 
-2. Đưa tất cả các ảnh vào chung 1 folder 
-3. Code dể lấy flag : 
-
+```
         from PIL import Image
 
         import numpy as np
@@ -40,5 +37,5 @@
                         pix[x, y] = res.getpixel((x, y))
 
          flag.save('flag.png')
-
+```
 #flag : p_ctf{TH3_D3V1L_0F_H3LL5_K1TCH3N_15_B4CK}
